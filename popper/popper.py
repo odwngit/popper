@@ -3,7 +3,7 @@ import json
 from rich.pretty import pprint
 from rich import print as richprint
 github_link = "https://www.github.com/odwngit/popper"
-funko_data = json.load(open(r'C:\Users\ellio\OneDrive\Desktop\all code\github\popper\funko_pop.json', encoding="utf8"))
+funko_data = json.load(open(r'funko_pop.json', encoding="utf8"))
 os.system("title popper")
 os.system("cls")
 while True:
